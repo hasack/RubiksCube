@@ -1,10 +1,9 @@
-﻿
-using RubiksCube.Library.Enums;
+﻿using RubiksCube.Library.Enums;
 using RubiksCube.Library.Models;
 
-namespace RubiksCubeSolver.Config
+namespace RubiksCube.Cube3x3.Configs
 {
-    internal static class FaceRotationConfigs
+    public static class FaceRotationConfigs
     {
         public static FaceRotationConfig TopClockWise = new()
         {
