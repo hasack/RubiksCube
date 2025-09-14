@@ -13,6 +13,9 @@ public class CubeFace3x3 : ICubeFace
                     Square middleLeft, Square middleMiddle, Square middleRight,
                     Square bottomLeft, Square bottomMiddle, Square bottomRight)
     {
+
+        // [row, column], zero-based indexing
+
         Squares[0, 0] = topLeft;
         Squares[0, 1] = topMiddle;
         Squares[0, 2] = topRight;
