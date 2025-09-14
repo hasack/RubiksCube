@@ -1,4 +1,3 @@
-using System;
 using RubiksCube.Library.Enums;
 using RubiksCube.Library.Interfaces;
 
@@ -81,5 +80,33 @@ public class CubeFace3x3 : ICubeFace
         Squares[0, columnIndex] = newColumn[0];
         Squares[1, columnIndex] = newColumn[1];
         Squares[2, columnIndex] = newColumn[2];
+    }
+
+    public void RotateClockwise()
+    {
+        // Rotate the face 90 degrees clockwise
+        Square[,] newSquares = new Square[3, 3];
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                newSquares[j, 2 - i] = Squares[i, j];
+            }
+        }
+        Squares = newSquares;
+    }
+
+    public void RotateAntiClockwise()
+    {
+        // Rotate the face 90 degrees anti-clockwise
+        Square[,] newSquares = new Square[3, 3];
+        for (int i = 0; i < 3; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                newSquares[2 - j, i] = Squares[i, j];
+            }
+        }
+        Squares = newSquares;
     }
 }
