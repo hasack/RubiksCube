@@ -12,14 +12,14 @@ namespace RubiksCube.Library.Models
     public class AdjacentEdge
     {
         public Aspect Face { get; private set; }
-        public bool IsRow { get; private set; } // true for row, false for column
+        public Edge Edge { get; private set; } // Column or Row
         public int Index { get; private set; }  // 1-based index
         public bool Reverse { get; private set; } // true if the edge should be reversed when moved
 
-        public AdjacentEdge(Aspect face, bool isRow, int index, bool reverse)
+        public AdjacentEdge(Aspect face, Edge edge, int index, bool reverse)
         {
             Face = face;
-            IsRow = isRow;
+            Edge = edge;
             Index = index;
             Reverse = reverse;
         }
