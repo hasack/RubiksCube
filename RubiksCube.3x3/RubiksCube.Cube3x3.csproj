@@ -12,4 +12,10 @@
     <ProjectReference Include="../RubiksCube.Library/RubiksCube.Library.csproj" />
   </ItemGroup>
 
+    <ItemGroup>
+    <Content Include="Instructions\Instructions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

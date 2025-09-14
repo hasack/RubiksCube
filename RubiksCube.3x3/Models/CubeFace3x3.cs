@@ -8,6 +8,11 @@ public class CubeFace3x3 : ICubeFace
     // A CubeFace as a 3x3 array of Squares
     public Square[,] Squares { get; set; } = new Square[3, 3];
 
+    public CubeFace3x3()
+    {
+
+    }
+
     // Constructor to initialize a CubeFace with 9 Squares
     public CubeFace3x3(Square topLeft, Square topMiddle, Square topRight,
                     Square middleLeft, Square middleMiddle, Square middleRight,

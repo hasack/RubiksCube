@@ -2,6 +2,6 @@ namespace RubiksCube.Library.Enums;
 
 public enum Edge
 {
-    column,
+    Column,
     Row
 }

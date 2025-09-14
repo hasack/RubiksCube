@@ -5,7 +5,7 @@ namespace RubiksCube.Library.Tools
 {
     public class CubeBuilder
     {
-    private readonly Dictionary<Aspect, ICubeFace> _faces = new();
+    private readonly Dictionary<Aspect, ICubeFace> _faces = [];
 
         // Static entry points for fluent building (with custom face)
         public static CubeBuilder StartWithTop(ICubeFace face) => new CubeBuilder().SetTop(face);
