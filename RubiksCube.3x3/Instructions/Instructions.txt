@@ -1,0 +1,23 @@
+
+--------------------------------------------------------------------
+
+Rubik's Cube Move Notation:
+
+U  (Up):		Rotate the top face clockwise
+U' (Up'):		Rotate the top face anticlockwise
+D  (Down):		Rotate the bottom face clockwise
+D' (Down'):		Rotate the bottom face anticlockwise
+L  (Left):		Rotate the left face clockwise
+L' (Left'):		Rotate the left face anticlockwise
+R  (Right):		Rotate the right face clockwise
+R' (Right'):		Rotate the right face anticlockwise
+F  (Front):		Rotate the front face clockwise
+F' (Front'):		Rotate the front face anticlockwise
+B  (Back):		Rotate the back face clockwise
+B' (Back'):		Rotate the back face anticlockwise
+
+Clockwise/Anticlockwise is as viewed facing the specified face.
+
+Q: Quit the program.
+
+--------------------------------------------------------------------

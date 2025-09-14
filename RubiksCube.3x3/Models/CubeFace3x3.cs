@@ -1,7 +1,7 @@
 using RubiksCube.Library.Enums;
 using RubiksCube.Library.Interfaces;
 
-namespace RubiksCube.Library.Models;
+namespace RubiksCube.Cube3x3.Models;
 
 public class CubeFace3x3 : ICubeFace
 {

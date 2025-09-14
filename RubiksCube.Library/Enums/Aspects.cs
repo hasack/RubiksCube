@@ -1,6 +1,6 @@
 namespace RubiksCube.Library.Enums;
 
-public enum Aspects
+public enum Aspect
 {
     Top,
     Front,

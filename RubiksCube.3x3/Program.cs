@@ -1,4 +1,4 @@
-﻿namespace RubiksCube._3x3;
+﻿namespace RubiksCube.Cube3x3;
 
 class Program
 {

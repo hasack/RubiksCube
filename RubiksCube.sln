@@ -5,15 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubiksCube.Library", "RubiksCube.Library\RubiksCube.Library.csproj", "{B9CD3405-D8CE-4808-BBD0-BD3712FA64B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubiksCube.3x3", "RubiksCube.3x3\RubiksCube.3x3.csproj", "{EACA0548-5641-4EC1-B704-C9429CA19DAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubiksCube.Cube3x3", "RubiksCube.3x3\RubiksCube.Cube3x3.csproj", "{EACA0548-5641-4EC1-B704-C9429CA19DAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B9CD3405-D8CE-4808-BBD0-BD3712FA64B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +21,8 @@ Global
 		{EACA0548-5641-4EC1-B704-C9429CA19DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EACA0548-5641-4EC1-B704-C9429CA19DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EACA0548-5641-4EC1-B704-C9429CA19DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
