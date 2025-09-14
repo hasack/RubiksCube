@@ -10,4 +10,9 @@ public class CubeSolver3x3 : ICubeSolver
     {
         throw new NotImplementedException();
     }
+
+    public Task<List<Move>> SolveAsync(ICube cube)
+    {
+        throw new NotImplementedException();
+    }
 }
