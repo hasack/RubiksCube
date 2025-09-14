@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubiksCube.Library", "Rubik
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubiksCube.Cube3x3", "RubiksCube.3x3\RubiksCube.Cube3x3.csproj", "{EACA0548-5641-4EC1-B704-C9429CA19DAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubiksCube.Cube3x3.Tests", "RubiksCube.Cube3x3.Tests\RubiksCube.Cube3x3.Tests.csproj", "{A2D10112-F57B-492F-AE2A-8B792D80D440}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EACA0548-5641-4EC1-B704-C9429CA19DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EACA0548-5641-4EC1-B704-C9429CA19DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EACA0548-5641-4EC1-B704-C9429CA19DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D10112-F57B-492F-AE2A-8B792D80D440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D10112-F57B-492F-AE2A-8B792D80D440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D10112-F57B-492F-AE2A-8B792D80D440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D10112-F57B-492F-AE2A-8B792D80D440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
