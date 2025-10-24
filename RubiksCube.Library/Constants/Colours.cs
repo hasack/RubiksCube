@@ -1,13 +1,11 @@
-using System;
+namespace RubiksCube.Library.Constants;
 
-namespace RubiksCube.Library.CubeModels;
-
-public enum Colours
+public enum Colour
 {
-    U,
-    R,
-    F,
-    D,
-    L,
-    B
+    U, // Upper
+    R, // Right
+    F, // Front
+    D, // Down
+    L, // Left
+    B // Back
 }

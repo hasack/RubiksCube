@@ -8,10 +8,13 @@
 // B - Back 1 to 9
 
 // Each of the individual covered squares is know as a "facelet"
+// Corner cubies have 3 facelets.
+// Edge cubies have 2 facelets.
+// Center cubies have 1 facelet.
 
 namespace RubiksCube.Library.CubeModels;
 
-public enum Positions
+public enum Facelet
 {
     U1,
     U2,
