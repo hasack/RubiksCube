@@ -1,64 +1,63 @@
-using Fc = RubiksCube.Library.CubeModels.Facelet;
-using Cl = RubiksCube.Library.Constants.Colour;
+using RubiksCube.Library.Constants;
 
 namespace RubiksCube.Library.Definitions;
 
-public class Facelets
+public static class Facelets
 {
-    public readonly List<(Fc, Fc, Fc)> cornerFacelets =
+    public static readonly Facelet[][] cornerFacelets =
     [
-        (Fc.U9, Fc.R1, Fc.F3),
-        (Fc.U7, Fc.F1, Fc.L3),
-        (Fc.U1, Fc.L1, Fc.B3),
-        (Fc.U3, Fc.B1, Fc.R3),
-        (Fc.D3, Fc.F9, Fc.R7),
-        (Fc.D1, Fc.L9, Fc.F7),
-        (Fc.D7, Fc.B9, Fc.L7),
-        (Fc.D9, Fc.R9, Fc.B7)
+        [Facelet.U9, Facelet.R1, Facelet.F3],   // URF
+        [Facelet.U7, Facelet.F1, Facelet.L3],   // UFL
+        [Facelet.U1, Facelet.L1, Facelet.B3],   // ULB
+        [Facelet.U3, Facelet.B1, Facelet.R3],   // UBR
+        [Facelet.D3, Facelet.F9, Facelet.R7],   // DFR
+        [Facelet.D1, Facelet.L9, Facelet.F7],   // DLF
+        [Facelet.D7, Facelet.B9, Facelet.L7],   // DBL
+        [Facelet.D9, Facelet.R9, Facelet.B7]    // DRB
     ];
 
-    public readonly List<(Fc, Fc)> edgeFacelets =
+    public static readonly Facelet[][] edgeFacelets =
     [
-        (Fc.U6, Fc.R2),
-        (Fc.U8, Fc.F2),
-        (Fc.U4, Fc.L2),
-        (Fc.U2, Fc.B2),
-        (Fc.D6, Fc.R8),
-        (Fc.D2, Fc.F8),
-        (Fc.D4, Fc.L8),
-        (Fc.D8, Fc.B8),
-        (Fc.F6, Fc.R4),
-        (Fc.F4, Fc.L6),
-        (Fc.B6, Fc.L4),
-        (Fc.B4, Fc.R6)
+        [Facelet.U6, Facelet.R2],   // UR
+        [Facelet.U8, Facelet.F2],   // UF
+        [Facelet.U4, Facelet.L2],   // UL
+        [Facelet.U2, Facelet.B2],   // UB
+        [Facelet.D6, Facelet.R8],   // DR
+        [Facelet.D2, Facelet.F8],   // DF
+        [Facelet.D4, Facelet.L8],   // DL
+        [Facelet.D8, Facelet.B8],   // DB
+        [Facelet.F6, Facelet.R4],   // FR
+        [Facelet.F4, Facelet.L6],   // FL
+        [Facelet.B6, Facelet.L4],   // BL
+        [Facelet.B4, Facelet.R6]    // BR
     ];
 
-    public readonly List<(Cl, Cl, Cl)> cornerColours =
+    public static readonly Colour[][] cornerColours =
     [
-        (Cl.U, Cl.R, Cl.F),
-        (Cl.U, Cl.F, Cl.L),
-        (Cl.U, Cl.L, Cl.B),
-        (Cl.U, Cl.B, Cl.R),
-        (Cl.D, Cl.F, Cl.R),
-        (Cl.D, Cl.L, Cl.F),
-        (Cl.D, Cl.B, Cl.L),
-        (Cl.D, Cl.R, Cl.B)
+        [Colour.U, Colour.R, Colour.F], // URF
+        [Colour.U, Colour.F, Colour.L], // UFL
+        [Colour.U, Colour.L, Colour.B], // ULB
+        [Colour.U, Colour.B, Colour.R], // UBR
+        [Colour.D, Colour.F, Colour.R], // DFR
+        [Colour.D, Colour.L, Colour.F], // DLF
+        [Colour.D, Colour.B, Colour.L], // DBL
+        [Colour.D, Colour.R, Colour.B]  // DRB
 
     ];
 
-    public readonly List<(Cl, Cl)> edgeColours =
+    public static readonly Colour[][] edgeColours =
     [
-        (Cl.U, Cl.R),
-        (Cl.U, Cl.F),
-        (Cl.U, Cl.L),
-        (Cl.U, Cl.B),
-        (Cl.D, Cl.R),
-        (Cl.D, Cl.F),
-        (Cl.D, Cl.L),
-        (Cl.D, Cl.B),
-        (Cl.F, Cl.R),
-        (Cl.F, Cl.L),
-        (Cl.B, Cl.L),
-        (Cl.B, Cl.R)
+        [Colour.U, Colour.R],   // UR
+        [Colour.U, Colour.F],   // UF
+        [Colour.U, Colour.L],   // UL
+        [Colour.U, Colour.B],   // UB
+        [Colour.D, Colour.R],   // DR
+        [Colour.D, Colour.F],   // DF
+        [Colour.D, Colour.L],   // DL
+        [Colour.D, Colour.B],   // DB
+        [Colour.F, Colour.R],   // FR
+        [Colour.F, Colour.L],   // FL
+        [Colour.B, Colour.L],   // BL
+        [Colour.B, Colour.R]    // BR
     ];
 }

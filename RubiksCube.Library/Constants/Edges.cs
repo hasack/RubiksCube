@@ -1,6 +1,6 @@
 // Edges are the pieces with two colours that sit between the corners on each face
 
-namespace RubiksCube.Library.CubeModels;
+namespace RubiksCube.Library.Constants;
 
 public enum Edge
 {

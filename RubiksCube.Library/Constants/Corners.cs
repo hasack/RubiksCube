@@ -1,4 +1,4 @@
-namespace RubiksCube.Library.CubeModels;
+namespace RubiksCube.Library.Constants;
 
 public enum Corner
 {

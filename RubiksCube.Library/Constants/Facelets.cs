@@ -12,7 +12,7 @@
 // Edge cubies have 2 facelets.
 // Center cubies have 1 facelet.
 
-namespace RubiksCube.Library.CubeModels;
+namespace RubiksCube.Library.Constants;
 
 public enum Facelet
 {
