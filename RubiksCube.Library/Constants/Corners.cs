@@ -1,6 +1,6 @@
 namespace RubiksCube.Library.CubeModels;
 
-public enum Corners
+public enum Corner
 {
     URF, // Upper, Right, Front
     UFL, // Upper, Front, Left

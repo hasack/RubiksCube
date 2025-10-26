@@ -2,7 +2,7 @@
 
 namespace RubiksCube.Library.CubeModels;
 
-public enum Edges
+public enum Edge
 {
     UR, // [Cube that sits on join between] Upper and Right
     UF, // Upper and Front
