@@ -45,9 +45,27 @@ namespace RubiksCube.Library.CubeModels
         /// Gets a representation of a CubieCube as a string
         /// </summary>
         /// <returns>CubieCubie as a string</returns>
-        public string GetCubeString()
+        public static string GetCubeString()
         {
             // TODO
+
+            // from enums import Color, Corner as Co, Edge as Ed
+
+            // cp is cornerPermutation
+            // co is cornerOrientation
+
+            // ep is edgePermutation
+            // eo is edgeOrientation
+
+            //def __str__(self):
+            //"""Print string for a cubie cube."""
+            //s = ''
+            //for i in Co:
+            //    s = s + '(' + str(self.cp[i]) + ',' + str(self.co[i]) + ')'
+            //s += '\n'
+            //for i in Ed:
+            //    s = s + '(' + str(self.ep[i]) + ',' + str(self.eo[i]) + ')'
+            //return s
 
             return "";
         }
